@@ -12,6 +12,8 @@ Return `true` if you running on iOS device
 ### isIPhoneX()
 This method help to detect if you on iPhone X device
 
+Return `true` if you running on iPhone X, XR, XS device
+
 ### isAndroid
 This variable help to detect is Android
 
