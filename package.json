@@ -1,10 +1,14 @@
 {
   "name": "react-native-os-helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple library help you detect which OS Platform and iPhone helper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huychau/react-native-os-helper.git"
   },
   "keywords": [
     "react-native",
@@ -13,7 +17,11 @@
     "iphone"
   ],
   "author": "Huy Chau",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com//huychau/react-native-os-helper/issues"
+  },
+  "homepage": "https://github.com//huychau/react-native-os-helper#readme",
   "peerDependencies": {
     "react-native": ">=0.50.0"
   }

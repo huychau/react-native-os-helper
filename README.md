@@ -1,8 +1,14 @@
 # react-native-os-helper
 
-A simple library help you detect which OS Platform and iPhone helper
+A simple library help you detect which OS Platform you are running and iPhone helper methods
 
-## API
+## Installing
+
+```
+npm i react-native-os-helper
+```
+
+## APIs
 
 ### isIOS
 This variable help to detech is iOS
