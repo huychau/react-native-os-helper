@@ -18,7 +18,7 @@ This variable help to detect is Android
 Return `true` if you running on Android device
 
 Example:
-```
+```js
 import { isIOS } from 'react-native-os-helper'
 
 // ...
