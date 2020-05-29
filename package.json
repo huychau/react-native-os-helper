@@ -1,6 +1,6 @@
 {
   "name": "react-native-os-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library help you detect which OS Platform and iPhone helper",
   "main": "index.js",
   "scripts": {

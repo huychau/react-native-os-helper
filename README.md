@@ -32,8 +32,8 @@ import { isIOS } from 'react-native-os-helper'
 // ...
 
 if (isIOS) {
-    // do something
+  // do something
 } else {
-    // do something
+  // do something
 }
 ```
