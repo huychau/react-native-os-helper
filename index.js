@@ -24,7 +24,7 @@ export const isIPhone = isIOS && !Platform.isPad && !Platform.isTVOS;
  * @param {Object} dim Dimensions
  */
 export function isIPhoneXSize(dim) {
-    return dim.height == iPhoneXHeight || dim.width == iPhoneXHeight;
+  return dim.height == iPhoneXHeight || dim.width == iPhoneXHeight;
 }
 
 /**
@@ -32,17 +32,17 @@ export function isIPhoneXSize(dim) {
  * @param {Object} dim Dimensions
  */
 export function isIPhoneXRSize(dim) {
-return dim.height == iPhoneXRHeight || dim.width == iPhoneXRHeight;
+  return dim.height == iPhoneXRHeight || dim.width == iPhoneXRHeight;
 }
 
 /**
  * Check is iPhoneX device
  */
 export function isIphoneX() {
-    const dim = Dimensions.get('window');
-    return (
-        isIPhone &&  (isIPhoneXSize(dim) || isIPhoneXRSize(dim))
-    );
+  const dim = Dimensions.get('window');
+  return (
+    isIPhone && (isIPhoneXSize(dim) || isIPhoneXRSize(dim))
+  );
 }
 
 
